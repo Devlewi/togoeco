@@ -43,11 +43,11 @@ export async function generateMetadata({
   };
 
   return {
-    title: locale === "en" ? "Togo ECO | HOME" : "TOGO ECO | ACCUEIL",
+    title: locale === "en" ? "TOGO ECO | HOME" : "TOGO ECO | ACCUEIL",
     description:
       locale === "en"
-        ? "Togo ECO is your economic news portal dedicated to Togo"
-        : "Togo ECO est votre portail d'information économique dédié au Togo",
+        ? "TOGO ECO is your economic news portal dedicated to Togo"
+        : "TOGO ECO est votre portail d'information économique dédié au Togo",
 
     // Icônes de navigation
     icons: {
@@ -60,10 +60,10 @@ export async function generateMetadata({
 
     // Balises Open Graph pour Facebook, WhatsApp, etc.
     openGraph: {
-      title: locale === "en" ? "Togo ECO | HOME" : "TOGO ECO | ACCUEIL",
+      title: locale === "en" ? "TOGO ECO | HOME" : "TOGO ECO | ACCUEIL",
       description:
         locale === "en"
-          ? "Togo ECO is your economic news portal dedicated to Togo"
+          ? "TOGO ECO is your economic news portal dedicated to Togo"
           : "TOGO ECO est votre portail d'information économique dédié au TOGO",
       url: `${siteDomain}/${locale}`,
       siteName: "TOGO ECO",
@@ -73,7 +73,7 @@ export async function generateMetadata({
           url: `${siteDomain}/${locale}/images/og-image.png`, // 🔧 Met une vraie image (1200x630px)
           width: 1200,
           height: 630,
-          alt: "Aperçu TOGO Eco",
+          alt: "Aperçu TOGO ECO",
         },
       ],
     },
@@ -81,10 +81,10 @@ export async function generateMetadata({
     // Twitter card (aperçu sur Twitter/X)
     twitter: {
       card: "summary_large_image",
-      title: locale === "en" ? "Togo ECO | HOME" : "TOGO ECO | ACCUEIL",
+      title: locale === "en" ? "TOGO ECO | HOME" : "TOGO ECO | ACCUEIL",
       description:
         locale === "en"
-          ? "Togo ECO is your economic news portal dedicated to Togo"
+          ? "TOGO ECO is your economic news portal dedicated to Togo"
           : "TOGO ECO est votre portail d'information économique dédié au TOGO",
       images: [`${siteDomain}/${locale}/images/og-image.png`],
     },

@@ -40,7 +40,7 @@ export async function GET(_req: NextRequest) {
     const articles = await getArticleSlugs();
 
     const urls = articles.map(article => ({
-      loc: `https://www.abidjan-eco.com/${article.locale}/article/${article.slug}`,
+      loc: `https://www.togo-eco.com/${article.locale}/article/${article.slug}`,
       lastmod: article.lastmod,
     }));
 

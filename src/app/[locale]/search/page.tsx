@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "CAMEROON ECO | SEARCH ENGINE",
+  title: "TOGO ECO | SEARCH ENGINE",
   description: "Search and browse all the latest items available.",
 };
 
